@@ -1,12 +1,12 @@
-$primaryColor: #eeccff;
-$secondaryColor: #cce34f;
+@import './navigation/_navigationItems';
+@import './navigation/_navigationItem';
+@import './navigation/_toolbar';
+@import './layout/_sidedrawer';
+@import './layout/_backdrop';
+@import './layout/_sidedrawertoggle';
 
-body {
-  $primaryColor: #ccc;
-  background-color: $primaryColor;
-}
+@import './base/_reset';
+@import './abstracts/_variables';
+@import './abstracts/animation';
 
-h1{
-    font-size: 64px;
-    color: $secondaryColor;
-}
+@import './components/_home';

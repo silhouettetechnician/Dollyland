@@ -1,5 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Layout from './components/Layout'
+import Home from './components/Home'
 import './scss/main.scss'
 
 class App extends React.Component{
@@ -10,7 +12,13 @@ class App extends React.Component{
 
     render(){
         return(
-            <h1>Hello</h1>
+            
+            <Layout>
+           
+            <Home />
+
+            </Layout>
+            
         )
     }
 }

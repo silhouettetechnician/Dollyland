@@ -11,6 +11,7 @@ new mongoose.Schema({
     size: { type: String },
     price: { type: Number, required: true },
     images: { type: Array },
-    deliveryOptions: { type: String, required: true},
-    discountCoupon: { type: Number }
+    accessories: { type: Array }
 })
+
+module.exports = mongoose.model('Product', productSchema)

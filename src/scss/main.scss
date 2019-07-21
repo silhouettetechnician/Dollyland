@@ -1,0 +1,12 @@
+$primaryColor: #eeccff;
+$secondaryColor: #cce34f;
+
+body {
+  $primaryColor: #ccc;
+  background-color: $primaryColor;
+}
+
+h1{
+    font-size: 64px;
+    color: $secondaryColor;
+}
